@@ -1,0 +1,27 @@
+{
+  "telegram": {
+    "bot_token": "123456789:AA...токен от @BotFather",
+    "chat_id": "ваш chat_id — см. README, шаг 4"
+  },
+  "queries": [
+    {"tag": "feed",  "smart_search": {"mode": "most_recent", "days_posted": 2}},
+    {"tag": "pbi",   "title": "power bi"},
+    {"tag": "skill", "skills": ["Microsoft Power BI"]},
+    {"tag": "pq",    "title": "power query"}
+  ],
+  "rules": {
+    "verified_payment_only": true,
+    "max_proposals": 49,
+    "max_age_hours": 48,
+    "min_client_spent": 1000,
+    "min_client_rating": 4.5,
+    "min_hourly_max": 40,
+    "min_fixed_budget": 300,
+    "max_interviewing": 8,
+    "skip_if_hired": true,
+    "title_must_match": "power ?bi|dax|power query|fabric|report|dashboard|analyst|excel",
+    "title_stop": "tableau|looker studio|zoho|wordpress"
+  },
+  "max_details_per_run": 5,
+  "quiet_hours": [22, 8]
+}

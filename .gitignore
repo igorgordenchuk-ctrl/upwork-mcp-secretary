@@ -1,0 +1,8 @@
+# личные настройки и ключи — никогда в репозиторий
+config.json
+*.token.json
+token.json
+seen.db
+*.lock
+*.log
+__pycache__/
